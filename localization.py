@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Source: https://builtin.com/data-science/python-ocr
+
 from pytesseract import Output
 import pytesseract
 import cv2
