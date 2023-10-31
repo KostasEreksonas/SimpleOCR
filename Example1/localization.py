@@ -6,7 +6,7 @@ from pytesseract import Output
 import pytesseract
 import cv2
 
-filename = 'sample1.jpg'
+filename = '../sample1.jpg'
 image = cv2.imread(filename)
 
 results = pytesseract.image_to_data(image, output_type=Output.DICT)

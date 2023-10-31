@@ -11,7 +11,7 @@ import numpy as np
 # | Image 1 |
 #  ---------
 
-filename1 = "sample1.jpg"
+filename1 = "../sample1.jpg"
 
 img1 = np.array(Image.open(filename1))
 
@@ -22,7 +22,7 @@ print(f"Result: {text1}")
 # | Image 2 |
 #  ---------
 
-filename2 = "sample2.jpg"
+filename2 = "../sample2.jpg"
 
 img2 = np.array(Image.open(filename2))
 cv2norm_img = np.zeros((img2.shape[0], img2.shape[1]))
